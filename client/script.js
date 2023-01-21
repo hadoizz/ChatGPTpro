@@ -86,7 +86,7 @@ const handleSubmit = async (e) => {
     // messageDiv.innerHTML = "..."
     loader(messageDiv)
 
-    await fetch('http://localhost:5000/', {
+    await fetch('https://clon-chatgpt.onrender.com', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
